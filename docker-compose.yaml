@@ -1,0 +1,18 @@
+version: '3.7'
+services: 
+
+    expo_docker:
+        container_name: expo_docker
+        image: expo_docker
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            REACT_NATIVE_PACKAGER_HOSTNAME: ${MY_LAN_IP}
+        ports:
+            - "19000-19006:19000-19006"
+        working_dir: /expo_docker
+        volumes: 
+            - ./:/expo_docker
+        stdin_open: true
+        tty: true   

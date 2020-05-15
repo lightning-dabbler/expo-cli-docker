@@ -1,5 +1,5 @@
 <h1 align="center">Expo CLI - Docker</h1>
-<h4 align="center">Example set up of Expo within a Docker environment</h4>
+<h4 align="center">Sample set up of Expo within a Docker environment</h4>
 
 ## Requirements
 - [Docker] Engine version 18.06.0+

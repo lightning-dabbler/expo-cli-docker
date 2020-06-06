@@ -3,6 +3,7 @@
 
 # Table of Contents
 - [Requirements](#requirements)
+- [Prerequisite Commands](#prerequisite-commands)
 - [Common Issues and Workarounds](#common-issues-and-workarounds)
     - [Metro Bundler](#metro-bundler)
     - [Local Area Network (LAN) Host Name](#lan)
@@ -11,6 +12,13 @@
 ## Requirements
 - [Docker] Engine version 18.06.0+
 - [Docker-Compose] version 1.22.0+
+
+## Prerequisite Commands
+```bash
+docker-compose up -d
+docker exec -it expo_docker /bin/bash
+expo init CoolAppInit #typescript
+```
 
 ## Common Issues and Workarounds
 ### Metro Bundler
